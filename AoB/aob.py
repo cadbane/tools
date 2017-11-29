@@ -37,19 +37,19 @@ def make_aob(list):
 
 if __name__ == '__main__':
 	
-	# Open file
-	file = open('in.txt', 'r+')
+    # Open file
+    file = open('in.txt', 'r+')
 
-	# Make AoB
-	aob = make_aob(file.readlines())
+    # Make AoB
+    aob = make_aob(file.readlines())
 
-	# Save result
-	file.write('\n\n; AoB\n')
-	file.write(aob)
+    # Save result
+    file.write('\n\n; AoB\n')
+    file.write(aob)
 
-	# Close file
-	file.close()
+    # Close file
+    file.close()
 
-	print("Done.")
+    print("Done.")
 
 
